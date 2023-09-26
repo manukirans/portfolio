@@ -96,6 +96,10 @@
         display: block; // Ensure the image is a block element
       }
     }
+    .boxes div {
+      font-size: 1.5rem; // Reduce font size for smaller screens
+      padding: 1rem 2rem; // Reduce padding for smaller screens
+    }
     
   }
   
@@ -142,9 +146,16 @@
         display: block; // Ensure the image is a block element
       }
     }
+    .boxes div {
+      font-size: 1.5rem; // Reduce font size for smaller screens
+      padding: 1rem 2rem; // Reduce padding for smaller screens
+    }
+  }
+    
+   
     
     
     
       
     
-  }
+  
