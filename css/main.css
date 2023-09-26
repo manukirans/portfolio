@@ -432,7 +432,10 @@ main {
     text-align: center; }
     .about-info .bio-image {
       margin: 0 auto;
-      display: block; } }
+      display: block; }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -458,4 +461,7 @@ main {
     text-align: center; }
     .about-info .bio-image {
       margin: 0 auto;
-      display: block; } }
+      display: block; }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem; } }
