@@ -49,6 +49,10 @@
         background: url('../img/portrait-3.jpg');
         width: 150px;
         height: 150px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center center;
+       
       }
     }
   
@@ -68,12 +72,31 @@
     }
     .course-info{
       grid-template-areas:
-        'education1'
-        'course1'
-        'course2'
-        'course3';
-  
+      'education1'
+      'course1'
+      'course2'
+      'course3';
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    .education-1,
+    .course-1,
+    .course-2,
+    .course-3{
+      grid-area: unset;
     }
+      
+    }
+    .about-info {
+      display: block; // Change to block layout for centering
+      text-align: center; // Center-align the content
+  
+      .bio-image {
+        margin: 0 auto; // Center the image horizontally
+        display: block; // Ensure the image is a block element
+      }
+    }
+    
   }
   
   // Smartphones
@@ -93,4 +116,35 @@
     .projects {
       grid-template-columns: 1fr;
     }
+    .course-info{
+      grid-template-areas:
+      'education1'
+      'course1'
+      'course2'
+      'course3';
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    .education-1,
+    .course-1,
+    .course-2,
+    .course-3{
+      grid-area: unset;
+    }
+      
+    }
+    .about-info {
+      display: block; // Change to block layout for centering
+      text-align: center; // Center-align the content
+  
+      .bio-image {
+        margin: 0 auto; // Center the image horizontally
+        display: block; // Ensure the image is a block element
+      }
+    }
+    
+    
+    
+      
+    
   }
