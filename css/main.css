@@ -1,3 +1,6 @@
+p {
+  text-align: left; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
